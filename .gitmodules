@@ -1,0 +1,3 @@
+[submodule "msd"]
+	path = msd
+	url = git@github.com:DeathStroke19891/msd.git
