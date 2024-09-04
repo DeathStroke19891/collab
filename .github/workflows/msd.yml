@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: 
-        run: cd msd
+        run: cd myers-diff
 
       - name: 
         run: mkdir build
