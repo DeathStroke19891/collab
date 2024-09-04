@@ -22,9 +22,6 @@ jobs:
         run: cd tests
 
       - name: 
-        run: cmake ..
-
-      - name: 
         run: cd ..
 
       - name:  
