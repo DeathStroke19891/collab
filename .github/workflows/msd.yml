@@ -19,7 +19,7 @@ jobs:
         run: cd msd
 
       - name: 
-        run: mkdir build
+        run: mkdir -p build
 
       - name: 
         run: cd build
