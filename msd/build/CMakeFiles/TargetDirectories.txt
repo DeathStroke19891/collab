@@ -1,0 +1,5 @@
+/home/parzival/programming/se/collab/notepad/msd/build/CMakeFiles/test-dmp.dir
+/home/parzival/programming/se/collab/notepad/msd/build/CMakeFiles/format.dir
+/home/parzival/programming/se/collab/notepad/msd/build/CMakeFiles/fuzz.dir
+/home/parzival/programming/se/collab/notepad/msd/build/CMakeFiles/edit_cache.dir
+/home/parzival/programming/se/collab/notepad/msd/build/CMakeFiles/rebuild_cache.dir

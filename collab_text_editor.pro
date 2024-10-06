@@ -9,14 +9,17 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    editorwindow.cpp \
     main.cpp \
-    mainwindow.cpp
+    sharedtextmodel.cpp
+    sharedtextmodel.cpp
 
 HEADERS += \
-    mainwindow.h
+    editorwindow.h \
+    sharedtextmodel.h
 
 FORMS += \
-    mainwindow.ui
+    editorwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

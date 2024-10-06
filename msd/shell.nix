@@ -4,17 +4,11 @@ pkgs.mkShell
 {
   nativeBuildInputs = [
     pkgs.clang-tools
-    pkgs.qt6.full
-    pkgs.gdb
+    pkgs.cmake
     pkgs.libcxx
   ];
 
-  buildInputs = [
-    pkgs.qtcreator
-    pkgs.trashy
-  ];
   shellHook = ''
     alias rm="trash -c always put"
-    export QT_QPA_PLATFORM=wayland
   '';
 }
