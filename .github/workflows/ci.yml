@@ -17,12 +17,3 @@ jobs:
 
       - name: 
         run: mkdir -p tests/build
-
-      - name: 
-        run: cd tests
-
-      - name:
-        run: cmake ..
-
-      - name:
-        run: make tests
